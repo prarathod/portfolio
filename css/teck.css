@@ -17,3 +17,25 @@
       margin: auto;
   }
 }
+
+@media screen and (min-width: 1350px) {
+    #blogs, #services2{
+        width: 1300px;
+      margin: auto;
+    }
+}
+#services1{
+    display:none;
+}
+@media screen and (min-width: 1281px) {
+    #ts-main{
+        display:none;
+    }
+    #services1{
+        display:block;
+    }
+    #services2{
+        display: grid;
+        grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+}
