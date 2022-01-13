@@ -1,0 +1,19 @@
+.teck{
+    width: 10px;
+}
+
+
+
+@media screen and (max-width: 430px) {
+    #ts-main{
+        display: grid;
+        grid-template-columns: 10% 90%;
+    }
+}
+
+@media screen and (min-width: 1281px) {
+  #services{
+      width: 1280px;
+      margin: auto;
+  }
+}
